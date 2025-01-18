@@ -1,0 +1,9 @@
+{
+  "name": "@kunkun/kunkun-ext-ip-info",
+  "version": "0.1.1",
+  "license": "MIT",
+  "exports": "./mod.ts",
+  "publish": {
+    "include": ["dist", "demo", "README.md", "package.json", "mod.ts"]
+  }
+}
