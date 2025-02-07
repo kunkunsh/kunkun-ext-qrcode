@@ -1,7 +1,7 @@
 <script lang="ts">
 	import jsQR from 'jsqr';
 	import { base } from '$app/paths';
-	import { clipboard, open } from '@kksh/api/ui/iframe';
+	import { clipboard, open } from '@kksh/api/ui/custom';
 	import { Button } from '@kksh/svelte';
 	import { ModeWatcher } from 'mode-watcher';
 	import { onMount } from 'svelte';
